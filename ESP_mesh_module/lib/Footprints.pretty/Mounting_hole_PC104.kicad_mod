@@ -1,0 +1,10 @@
+(module Mounting_hole_PC104 (layer F.Cu) (tedit 5DCC6490)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mounting_hole_PC104 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 4.75) (size 6.35 6.35) (drill 3.18) (layers *.Cu *.Mask)
+    (die_length 1))
+)
